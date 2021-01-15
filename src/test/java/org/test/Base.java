@@ -29,9 +29,14 @@ public class Base {
 	public static void close() {
 		driver.quit();
 	}
+	public void hall() {
+		
+	}
+	
 	public void gold() {
 		driver.get("");
 	}
+	
 	public void startTime() {
 		Date st = new Date();
 		System.out.println(st);
