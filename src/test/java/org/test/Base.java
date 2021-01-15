@@ -29,6 +29,9 @@ public class Base {
 	public static void close() {
 		driver.quit();
 	}
+	public void hall() {
+		
+	}
 	
 	public void startTime() {
 		Date st = new Date();
