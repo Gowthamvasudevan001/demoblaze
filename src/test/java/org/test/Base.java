@@ -33,6 +33,10 @@ public class Base {
 		
 	}
 	
+	public void gold() {
+		driver.get("");
+	}
+	
 	public void startTime() {
 		Date st = new Date();
 		System.out.println(st);
